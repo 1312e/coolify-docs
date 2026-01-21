@@ -126,6 +126,7 @@ export default defineConfig({
     ],
 
     sidebar: [
+    { text: 'Home', link: '/home' },
       {
         text: 'Get Started',
         collapsed: false,
