@@ -126,7 +126,19 @@ export default defineConfig({
     ],
 
     sidebar: [
-    { text: 'Home', link: '/home' },
+      { text: 'Home', link: '/home' },
+      {
+        text: 'About',
+        collapsed: true,
+        items: [
+          { text: 'How Coolify works', link: '/about/how-coolify-works' },
+          { text: 'Self Hosted vs Coolify Cloud', link: 'shadow-to-do' },
+          { text: 'Docker & Containers', link: 'shadow-to-do' },
+          { text: 'Networking in Coolify', link: 'shadow-to-do' },
+          { text: 'Build & Deployment Model', link: 'shadow-to-do' },
+          { text: 'Security Model', link: 'shadow-to-do' },
+        ]
+      },
       {
         text: 'Get Started',
         collapsed: false,
@@ -166,6 +178,19 @@ export default defineConfig({
           },
 
         ],
+      },
+      {
+        text: 'Manage Coolify',
+        collapsed: true,
+        items: [
+          { text: 'What is Coolify', link: 'shadow-to-do' },
+          { text: 'How Coolify works', link: 'shadow-to-do' },
+          { text: 'Coolify vs Traditional PaaS', link: 'shadow-to-do' },
+          { text: 'Docker & Containers', link: 'shadow-to-do' },
+          { text: 'Networking in Coolify', link: 'shadow-to-do' },
+          { text: 'Build & Deployment Model', link: 'shadow-to-do' },
+          { text: 'Security Model', link: 'shadow-to-do' },
+        ]
       },
       {
         text: 'Applications',
@@ -470,6 +495,19 @@ export default defineConfig({
         ],
       },
       {
+        text: 'CLI Reference',
+        collapsed: true,
+        items: [
+          { text: 'What is Coolify', link: 'shadow-to-do' },
+          { text: 'How Coolify works', link: 'shadow-to-do' },
+          { text: 'Coolify vs Traditional PaaS', link: 'shadow-to-do' },
+          { text: 'Docker & Containers', link: 'shadow-to-do' },
+          { text: 'Networking in Coolify', link: 'shadow-to-do' },
+          { text: 'Build & Deployment Model', link: 'shadow-to-do' },
+          { text: 'Security Model', link: 'shadow-to-do' },
+        ]
+      },
+      {
         text: 'Troubleshoot',
         collapsed: true,
         items: [
@@ -529,6 +567,32 @@ export default defineConfig({
             ]
           },
         ],
+      },
+      {
+        text: 'Community Content',
+        collapsed: true,
+        items: [
+          { text: 'What is Coolify', link: 'shadow-to-do' },
+          { text: 'How Coolify works', link: 'shadow-to-do' },
+          { text: 'Coolify vs Traditional PaaS', link: 'shadow-to-do' },
+          { text: 'Docker & Containers', link: 'shadow-to-do' },
+          { text: 'Networking in Coolify', link: 'shadow-to-do' },
+          { text: 'Build & Deployment Model', link: 'shadow-to-do' },
+          { text: 'Security Model', link: 'shadow-to-do' },
+        ]
+      },
+      {
+        text: 'Contribute',
+        collapsed: true,
+        items: [
+          { text: 'What is Coolify', link: 'shadow-to-do' },
+          { text: 'How Coolify works', link: 'shadow-to-do' },
+          { text: 'Coolify vs Traditional PaaS', link: 'shadow-to-do' },
+          { text: 'Docker & Containers', link: 'shadow-to-do' },
+          { text: 'Networking in Coolify', link: 'shadow-to-do' },
+          { text: 'Build & Deployment Model', link: 'shadow-to-do' },
+          { text: 'Security Model', link: 'shadow-to-do' },
+        ]
       },
     ],
 
